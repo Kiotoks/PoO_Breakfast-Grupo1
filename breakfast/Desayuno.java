@@ -1,5 +1,4 @@
 package breakfast;
-
 public class Desayuno {
     private String[]ingredientes;
     private double precio;
