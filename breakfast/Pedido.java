@@ -44,7 +44,7 @@ public class Pedido {
     
     public void imprimirPedido(){
         String datos;
-        datos = this.emple.mostrarEmpleado() + this.cli.mostrarCliente()+ "\n";
+        datos = this.emple.mostrarEmpleado() +"\n"+ this.cli.mostrarCliente()+ "\n";
         for (Desayuno desayuno : desayunos) {
             datos += desayuno.mostrarDesayuno() + "\n";
         }

@@ -32,11 +32,12 @@ public class Desayuno {
         this.precio = precio;
     }
     public String mostrarDesayuno(){
-        String datos = "ingredeientes: ";
+        String datos = "Igredeientes: ";
         for (String ingrediente : ingredientes) {
             datos += ingrediente + ", ";
         }
         datos += "precio: "+ precio;
+        datos += ", numero: "+ num;
         return datos;
     } 
 }
