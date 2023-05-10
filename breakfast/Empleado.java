@@ -1,5 +1,4 @@
 package breakfast;
-
 public class Empleado {
     private String nombre;
     private double sueldoBasico;
